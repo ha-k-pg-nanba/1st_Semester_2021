@@ -2,6 +2,10 @@
 #include"enemy.h"
 
 Enemy::Enemy()
+:Hp(8)
+,Mp(1)
+,Atk(2)
+,Def(1)
 {
 	printf("コンストラクタ\n");
 	Name[0] = '\0';
