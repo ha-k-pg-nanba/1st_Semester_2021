@@ -1,7 +1,6 @@
 
-#include<stdio.h>
-#include<stdlib.h>
-#include"fighter.h"
+#include"Common.h"
+#include"unit.h"
 
 int main()
 {
