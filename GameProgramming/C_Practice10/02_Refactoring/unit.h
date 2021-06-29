@@ -10,13 +10,11 @@ public:
 	Fighter();
 	~Fighter();
 
+	Status status;
+
+	void InitRandomStatus();
+
 	char name[32];
 };
-
-Status::Status()
-{
-	void InitRandomStatus();
-}
-
 #endif // !FIGHTER_H
 
